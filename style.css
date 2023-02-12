@@ -2,9 +2,15 @@
     font-family: "Minecraft-Ten";
     src: url("//cdn.shopify.com/s/files/1/0266/4841/2351/t/27/assets/Minecraft-Ten.woff?v=117740519252934258961668030118") format("woff"), url("//cdn.shopify.com/s/files/1/0266/4841/2351/t/27/assets/Minecraft-Ten.woff2?v=132088595142409661261668030118") format("woff2"); }  
 @font-face {
-  font-family: "NotoSans-Bold";
-  src: url("//cdn.shopify.com/s/files/1/0266/4841/2351/t/27/assets/NotoSans-Bold.woff?v=174965189005659812701668030118") format("woff"), url("//cdn.shopify.com/s/files/1/0266/4841/2351/t/27/assets/NotoSans-Bold.woff2?v=16089708071501136451668030118") format("woff2"); }
-
+    font-family: "NotoSans-Bold";
+    src: url("//cdn.shopify.com/s/files/1/0266/4841/2351/t/27/assets/NotoSans-Bold.woff?v=174965189005659812701668030118") format("woff"), url("//cdn.shopify.com/s/files/1/0266/4841/2351/t/27/assets/NotoSans-Bold.woff2?v=16089708071501136451668030118") format("woff2"); }
+/* Webfont: MinecraftTen */@font-face {
+    font-family: 'MinecraftTen';
+    src: url('MinecraftTen.woff') format('woff2'), url('MinecraftTen.woff') format('woff2'); 
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
 .navitem {
     font-style: normal;
     font-weight: 700;
@@ -340,9 +346,16 @@ a.BlueLegends:hover {
     top: 15px;
     left: 15px
 }
-.TableItem p>strong{
+.TableItem strong{
     letter-spacing: 1px!important;
     text-transform: capitalize!important;
     font-size: 16px;
     font-family: Minecraft-Ten;
+}
+.fontDLC {
+    font-family: "MinecraftTen", Noto Sans, sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: uppercase;
 }
