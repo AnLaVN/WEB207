@@ -1,5 +1,9 @@
 var app = angular.module("MyApp", ["ngRoute"]);
-
+	app.controller("MyCtrl", function ($scope){
+		$scope.ScrollUp = function(){
+			window.scrollTo({ top: 0, behavior: 'smooth' });
+		}
+	});	
 	app.controller("DLCCtrl", function ($scope){
 		$scope.ListDLC = [
 			{Image: "https://www.minecraft.net/content/dam/games/dungeons/logos/dungeons-pmp-dlcbundle-boxart-500x500.jpg", Name: "GÓI DLC ULTIMATE", Text: "Bạn đã chơi Minecraft Dungeons, nhưng bây giờ đã đến lúc xem toàn bộ câu chuyện với Gói DLC Ultimate! Chơi qua tất cả DLC và trải nghiệm câu chuyện từ đầu đến cuối."},
@@ -10,9 +14,6 @@ var app = angular.module("MyApp", ["ngRoute"]);
 			{Image: "https://www.minecraft.net/content/dam/games/dungeons/logos/boxart-dlc2.jpg", Name: "VƯỢT QUA MÙA ĐÔNG", Text: "Những vùng đất băng giá này rất cần một anh hùng! Dũng cảm thực hiện các nhiệm vụ mới và đánh bại đám đông tàn nhẫn trên hành trình đánh bại Wraith khốn khổ ở trung tâm của cơn bão. DLC này được bao gồm trong Phiên bản Hero."},
 			{Image: "https://www.minecraft.net/content/dam/games/dungeons/logos/boxart-dlc1.jpg", Name: "RỪNG RẬM THỨC TỈNH", Text: "Khi các mối đe dọa trỗi dậy dưới tán rừng rậm, bạn phải cứu những vùng đất đầy lá này. Thực hiện các nhiệm vụ mới, chiến đấu với đám đông mới và chiến đấu với Jungle Abomination hùng mạnh! DLC này được bao gồm trong Phiên bản Hero."},
 		]
-		$scope.ScrollUp = function(){
-			window.scrollTo({ top: 0, behavior: 'smooth' });
-		}
 	});
 	app.controller("NewDungeonsCtrl", function ($scope){
 		$scope.ListNew = [
@@ -153,18 +154,4 @@ var app = angular.module("MyApp", ["ngRoute"]);
 			.otherwise({
 				redirectTo: "/Dungeons"
 			});
-	});
-	app.run(function ($rootScope) {
-		$rootScope.loading = false;
-		$rootScope.$on('$routeChangeStart', function(){
-			$rootScope.loading = true;
-		});
-		$rootScope.$on('$routeChangeSuccess', function(){
-			$rootScope.loading = false;
-		});
-		$rootScope.$on('$routeChangeError', function(){
-			$rootScope.loading = false;
-			alert("Lỗi không thể tải route");
-		});
-		console.log($rootScope.loading)
 	});
