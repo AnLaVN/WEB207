@@ -23,9 +23,9 @@
 
 	<!-- Cart -->
 	<div ng-controller="CartCtrl" style="min-height: calc(100vh - 431px)">
-		<div class="GH text-center m-4">CART</div>
-		<div class="h4 text-center m-4" ng-show="ListItem.length == 0">Giỏ hàng của bạn hiện đang trống</div>
-		<div class="TableItem" ng-hide="ListItem.length == 0">
+		<div class="GH text-center m-4 text-light">CART</div>
+		<div class="h4 text-center m-4 text-light" ng-show="Carts.length == 0">Giỏ hàng của bạn hiện đang trống</div>
+		<div class="TableItem" ng-hide="Carts.length == 0">
 			<div class="row text-center m-0" style="border-bottom: 2px solid #E8E8E1;">
 				<div class="col-3 col-md-2 col-xl-2 d-none d-md-block p-0 pb-3"></div>
 				<div class="col-9 col-md-4 col-xl-7 d-none d-md-block p-0 pb-3"></div>
@@ -33,11 +33,11 @@
 				<div class="col-4 col-md-2 col-xl-1 d-none d-md-block p-0 pb-3">Số lượng</div>
 				<div class="col-4 col-md-2 col-xl-1 d-none d-md-block p-0 pb-3">Tổng</div>
 			</div>
-			<div class="row m-0 my-3" ng-repeat="item in ListItem">
-				<div class="col-3 col-md-2 col-xl-2 p-0 text-center"><img src="{{item.Img}}" class="img-fluid"></div>
+			<div class="row m-0 my-3" ng-repeat="item in Carts">
+				<div class="col-3 col-md-2 col-xl-2 p-2 text-center"><img src="{{item.Logo}}" class="img-fluid"></div>
 				<div class="col-9 col-md-4 col-xl-7 p-0 align-items-center">
 					<p><strong>{{item.Name}}</strong></p>
-					<p>{{item.Text}}</p>
+					<p>{{item.Text2}}</p>
 				</div>
 				<div class="col-4 col-md-2 col-xl-1 p-0 text-center">
 					<div class="d-md-none d-block mt-4 text-start px-3">Đơn giá</div>
@@ -46,7 +46,7 @@
 				</div>
 				<div class="col-4 col-md-2 col-xl-1 p-0 text-center">
 					<div class="d-md-none d-block mt-4">Số lượng</div>
-					<div><input type="number" class="form-control" value="0" min="1" step="1" onKeyDown="return false" ng-model="item.Quan"></div>
+					<div><input type="number" class="form-control" data-bs-theme="dark" value="1" min="1" step="1" onKeyDown="return false" ng-model="item.Quan"></div>
 					<a type="button" class="col-auto btnCart-sm mt-2" ng-click="Delete($index)">XOÁ</a>
 				</div>
 				<div class="col-4 col-md-2 col-xl-1 p-0 text-center">
@@ -60,7 +60,7 @@
 				<div class="col-0 col-md-4 col-xl-7 d-none d-md-block p-0 pb-3"></div>
 				<div class="col-6 col-md-2 col-xl-1 p-0 pb-3"><strong style="font-size: 20px;">Tổng cộng</strong></div>
 				<div class="col-0 col-md-2 col-xl-1 d-none d-md-block p-0 pb-3"></div>
-				<div class="col-6 col-md-2 col-xl-1 p-0 pb-3"><strong style="font-size: 20px;">$ {{getTotal()}}</strong></div></div>
+				<div class="col-6 col-md-2 col-xl-1 p-0 pb-3"><strong style="font-size: 20px;">{{getTotal() | currency:$:2}}</strong></div></div>
 			</div>
 		</div>
 	</div>

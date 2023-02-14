@@ -1,0 +1,32 @@
+[
+{
+	"Logo": "https://www.minecraft.net/content/dam/games/dungeons/key-art/MCD_Buy-Module_S3-Fauna-Faire_500x500.jpg",
+	"Name": "MÙA 1: PHẦN PHIÊU LƯU TRÊN MÂY", 
+	"Text2": "Hãy đến một, đến tất cả và tận hưởng lễ kỷ niệm lành mạnh nhất trong Thế giới bên kia, bao gồm một loạt các hoạt động cho cả bạn và bạn bè của bạn!",
+ 	"Price":3.99
+},
+{
+	"Logo": "https://www.minecraft.net/content/dam/games/dungeons/key-art/MCD_Buy-Module_S2-Luminous-Night_500x500.jpg",
+	"Name": "MÙA 2: PHẦN PHIÊU LƯU ĐÊM SÁNG", 
+	"Text2": "Trở thành hình đại diện một lần nữa và kiếm những phần thưởng rạng rỡ mới trong Đêm dạ quang-cuộc phiêu lưu theo mùa thứ hai của Minecraft Dungeons. Khám phá Tháp về đêm trong một ánh sáng hoàn toàn mới, với các tầng bao gồm những bức tranh tường bí ẩn, những câu đố khó hiểu và những kẻ thù rực lửa. Những thách thức mới và các tính năng chất lượng cuộc sống đang chờ đón bạn-bạn sẽ khám phá điều gì trước bình minh?", 
+	"Price":3.99
+},
+{
+	"Logo": "https://www.minecraft.net/content/dam/games/dungeons/key-art/MCD-PMP_Buy-Module_Adventure-Pass_500x500.jpg",
+	"Name": "MÙA 1: PHẦN PHIÊU LƯU TRÊN MÂY",  
+	"Text2": "Khám phá một hệ thống tiến triển hoàn toàn mới và mở khóa các phần thưởng theo mùa thông qua các thử thách giới hạn thời gian hoặc khám phá Tòa tháp bí ẩn-một công trình kiến trúc cao vút để thử thách kỹ năng của bạn.", 
+	"Price":3.99
+},
+{
+	"Logo": "https://www.minecraft.net/content/dam/games/dungeons/logos/dungeons-pmp-ultedit-boxart-500x500.jpg", 
+	"Name": "BẢN ULTIMATE", 
+	"Text2": "Trải nghiệm toàn bộ câu chuyện về Dungeon Minecraft từ đầu đến cuối! Trải nghiệm Minecraft Dungeons: Ultimate Edition, bao gồm trò chơi cơ bản và tất cả sáu DLC. Chọn Phiên bản cuối cùng có nghĩa là bạn có được trải nghiệm đầy đủ với mức giá thấp hơn so với khi mua riêng. Nhận bản sao của bạn ngày hôm nay!", 
+	"Price":39.99
+},
+{
+	"Logo": "https://www.minecraft.net/content/dam/games/dungeons/key-art/boxart-standardedition.jpg", 
+	"Name": "BẢN THƯỜNG", 
+	"Text2":"Chiến đấu theo cách của bạn thông qua trò chơi phiêu lưu hành động hoàn toàn mới, lấy cảm hứng từ trình thu thập thông tin trong hầm ngục cổ điển và lấy bối cảnh trong vũ trụ Minecraft! Tối đa bốn người bạn có thể chơi cùng nhau hoặc bạn có thể dũng cảm vượt ngục một mình. Chiến đấu với đám đông mới và khó chịu ở các cấp độ cực kỳ đa dạng, đầy kho báu, đầy hành động, tất cả trong một nhiệm vụ hoành tráng để đánh bại Arch-Illager độc ác!", 
+	"Price":19.99
+}
+]
