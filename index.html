@@ -16,16 +16,24 @@
 	<script src="Minecraft.js"></script>
 	<title>ASM | Minecraft Dungeons</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="cdn.shopify.com/s/files/1/0266/4841/2351/t/27/assets/Minecraft-Five-Bold.woff?v=89906785377351922191668030118) ]">
 </head>
 
 <body ng-app="MyApp" ng-controller="MyCtrl" data-bs-theme="dark">
 	<!-- Header -->
-	<header ng-include="'Module/Header.html'"></header>
+	<header ng-include="'Module/HeaderCart.html'" ng-show="Page == 'Cart'"></header>
+	<header ng-include="'Module/Header.html'" ng-show="Page == 'Home'"></header>
+
 	<!-- Body -->
 	<div ng-view></div>
+
+	<!-- Menu -->
+	<div ng-include="'Module/Menu.html'"></div>
+
 	<!-- Footer -->
 	<footer style="background-color: #000;" ng-include="'Module/Footer.html'"></footer>
 
+	<!-- Toast -->
 	<div class="toast-container position-fixed top-0 end-0 p-3"  >
 		<div id="Toast" class="toast align-items-center" role="alert" aria-live="assertive" aria-atomic="true">
 			<div class="d-flex">

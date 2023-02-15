@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecrat List</title>
+</head>
+<body>
+    <div class="GH text-light m-0 d-flex justify-content-center align-items-center" style="height: 200px; background: #3C8727; position: relative;">DANH SÁCH
+        <img class="img-fluid" src="https://cdn.shopify.com/s/files/1/0266/4841/2351/t/27/assets/whiteBottomBlocks.png" style="position: absolute; bottom: 0; left: 50px;">
+    </div>
+    <div class="bg-white">
+        <div class="row m-0 p-3 justify-content-end">
+            <div class="col-6 col-md-7 col-lg-8 col-xl-9"></div>
+            <div class="col-6 col-md-5 col-lg-4 col-xl-3">
+                <select class="form-select form-select-md text-dark" ng-model="SORT" ng-change="page(1)">
+                    <option selected disabled value="">Bộ lọc</option>
+                    <option value="1">Theo bảng chữ cái, A-Z</option>
+                    <option value="2">Theo bảng chữ cái, Z-A</option>
+                    <option value="3">Theo giá, thấp đến cao</option>
+                    <option value="4">Theo giá, cao đến thấp</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="row mx-3 px-3">
+            <div class="col-1"></div>
+            <div class="col-sm-10 col-lg-5 m-0 p-3 text-center" ng-repeat="item in ListItem | orderBy:SORT>=2?'Price':'Name':SORT%2==0 | limitTo:2:LIndex">
+                <div style="position: relative;">
+                    <img class="img-fluid" src="{{item.Logo}}">
+                    <a style="position: absolute; bottom: 10px; left: 50%; transform: translate(-50%, 0%);" href="#!DLC/{{item.Index}}" class="MCButton" ng-click="ScrollUp()" ng-hide="item.Index === undefind">TÌM HIỂU THÊM</a>
+                </div>
+                <p class="m-0 mt-3 fs-4 fw-bold text-dark">{{item.Name}}</p>
+                <p class="m-0 fs-4 fw-bold text-dark">{{item.Price | currency:$:2}}</p>
+            </div>
+            <div class="col-1"></div>
+        </div>
+        <nav>
+            <ul class="pagination m-0 p-0 pb-5 justify-content-center">
+                <li class="page-item"><a class="page-link" href="" ng-click="back()"><span>&laquo;</span></a></li>
+                <li class="page-item" ng-repeat="item in LList" ng-class="(LIndex == (item-1)*2) ? 'active' : ''"><a class="page-link" href="" ng-click="page(item)">{{item}}</a>
+                <li class="page-item"><a class="page-link" href="" ng-click="next()"><span>&raquo;</span></a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>

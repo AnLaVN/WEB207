@@ -1,5 +1,6 @@
 [
 {	
+	"Index": 0,
 	"Logo": "https://www.minecraft.net/content/dam/games/dungeons/logos/dungeons-pmp-dlcbundle-boxart-500x500.jpg",
 	"Name": "GÓI DLC ULTIMATE", 
 	"Text": "Bạn đã chơi Minecraft Dungeons, nhưng bây giờ đã đến lúc xem toàn bộ câu chuyện với Gói DLC Ultimate! Chơi qua tất cả DLC và trải nghiệm câu chuyện từ đầu đến cuối.",
@@ -14,6 +15,7 @@
 	"Features": ["Bao gồm tất cả sáu DLC", "Cũng bao gồm Áo choàng anh hùng, hai skin người chơi và pet gà", "Khám phá các cấp độ mới và thu thập các vật phẩm độc đáo", "Chiến đấu với đám đông mới và khám phá các nhiệm vụ bí mật"]
 },
 {
+	"Index": 1,
 	"Logo": "https://www.minecraft.net/content/dam/games/dungeons/logos/dungeons-pmp-void-boxart-500x500.jpg",
 	"Name": "TIẾNG VỌNG TỪ HƯ KHÔNG", 
 	"Text2": "Bạn đã theo dõi câu chuyện về Arch-Illager và tìm thấy các mảnh vỡ từ Quả cầu thống trị-giờ đã đến lúc đi đến Điểm kết thúc. Chương cuối cùng của Minecraft Dungeons mở ra trong Echoing Void, DLC mới nhất. Đối mặt với kẻ thù mới, thu thập trang bị và vượt qua các nhiệm vụ mới đầy thử thách để kết thúc cuộc chiến này-một lần và mãi mãi.",
@@ -28,6 +30,7 @@
 	"Features": ["Ba nhiệm vụ mới", "Mob và kẻ thù hoàn toàn mới", "Vũ khí, thiết bị và đồ tạo tác mới", "Hai skin mới và một thú cưng"]
 },
 {	
+	"Index": 2,
 	"Logo": "https://www.minecraft.net/content/dam/games/minecraft/logos/Dungeons-PMP_DLC-Hidden-Depths_Boxart-500x500.jpg",
 	"Name": "ẨN SÂU", 
 	"Text": "Hòa mình vào cuộc phiêu lưu tiếp theo của bạn với DLC Minecraft Dungeons: Hidden Depths mới! Chuẩn bị và tạo nên sự nổi bật với các nhiệm vụ mới, kho báu bị chìm và kẻ thù.",
@@ -42,6 +45,7 @@
 	"Features": ["Ba nhiệm vụ dưới nước mới", "Một sự pha trộn của mob nước mặn mới và kẻ thù", "Vũ khí, thiết bị và đồ tạo tác mới", "Hai skin mới và thú cưng rùa con"]
 },
 {	
+	"Index": 3,
 	"Logo": "https://www.minecraft.net/content/dam/games/dungeons/logos/Dungeons-PMP_DLC-Flame-of-the-Nether_Boxart-500x500_03.jpg",
 	"Name": "NGỌN LỬA ĐỊA NGỤC", 
 	"Text": "Minecraft Dungeons mang đến sức nóng cho Nether với DLC đầy tham vọng nhất cho đến nay. Đừng bỏ lỡ các nhiệm vụ mới, các địa điểm rực lửa và các vật phẩm độc đáo!",
@@ -56,6 +60,7 @@
 	"Features": ["Sáu nhiệm vụ Địa Ngục mới", "Hạ gục kẻ thù mới từ Nether", "Vũ khí, thiết bị và đồ tạo tác mới", "Hai skin mới và thú cưng Baby Ghast"]
 },
 {	
+	"Index": 4,
 	"Logo": "https://www.minecraft.net/content/dam/games/dungeons/logos/Dungeons-PMP_DLC-Howling-Peaks_Boxart-500x500_02.jpg",
 	"Name": "ĐỈNH CAO TUYỆT VỜI", 
 	"Text": "Nguy hiểm đang chờ đợi trên đỉnh những đỉnh núi hùng vĩ, và sẽ cần một anh hùng để ngăn chặn cơn bão đang hình thành! Con đường lên đỉnh sẽ dẫn bạn đến với đám đông, nhiệm vụ và trang bị mới-đừng nhìn xuống.",
@@ -70,6 +75,7 @@
 	"Features": ["Khám phá ba nhiệm vụ mới thú vị", "Gặp phải đám đông đáng sợ mới", "Hạ gục Golem Tempest", "Giữ vững lập trường của bạn chống lại những cơn gió quét", "Vũ khí, áo giáp và đồ tạo tác mới"]
 },
 {	
+	"Index": 5,
 	"Logo": "https://www.minecraft.net/content/dam/games/dungeons/logos/boxart-dlc2.jpg",
 	"Name": "VƯỢT QUA MÙA ĐÔNG", 
 	"Text": "Những vùng đất băng giá này rất cần một anh hùng! Dũng cảm thực hiện các nhiệm vụ mới và đánh bại đám đông tàn nhẫn trên hành trình đánh bại Wraith khốn khổ ở trung tâm của cơn bão. DLC này được bao gồm trong Phiên bản Hero.",
@@ -84,6 +90,7 @@
 	"Features": ["Trượt băng", "Vũ khí, áo giáp và đồ tạo tác mới", "Đối mặt với Wraith khốn khổ", "Chiến đấu với Illusioner và Iceologer", "Đảm nhận 3 nhiệm vụ hoàn toàn mới"]
 },
 {	
+	"Index": 6,
 	"Logo": "https://www.minecraft.net/content/dam/games/dungeons/logos/boxart-dlc1.jpg",
 	"Name": "RỪNG RẬM THỨC TỈNH", 
 	"Text": "Khi các mối đe dọa trỗi dậy dưới tán rừng rậm, bạn phải cứu những vùng đất đầy lá này. Thực hiện các nhiệm vụ mới, chiến đấu với đám đông mới và chiến đấu với Jungle Abomination hùng mạnh! DLC này được bao gồm trong Phiên bản Hero.",
